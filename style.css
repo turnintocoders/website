@@ -1,0 +1,244 @@
+/* Typography */
+
+body {
+	font-family: Helvetica;
+	letter-spacing: 0.04em;
+	line-height: 1.45em;
+}
+
+h2 {
+	line-height: 1.25;
+}
+
+footer {
+	font-size: 13px;
+}
+
+b, strong {
+	color: #ff2d33;
+	font-weight: normal;
+}
+
+p {
+	margin-bottom: 1.25em;
+	margin-top: 0;
+}
+
+.big-3 {
+	font-size: 26px;
+	line-height: 1.25em;
+}
+
+.big-4 {
+	font-size: 35px;
+	line-height: 1.225em;
+}
+
+@media (min-width: 420px) {
+}
+
+@media (min-width: 768px) {
+	body {
+		font-size: 22px;
+		line-height: 1.4em;
+	}
+}
+
+@media (min-width: 1000px) {
+	body {
+		font-size: 24px;
+		font-weight: bold;
+		line-height: 1.825em;
+	}
+
+	b, strong {
+		font-weight: bold;
+	}
+
+	.big-1 {
+		font-size: 35px;
+		letter-spacing: 0.02em;
+		line-height: 1.4em;
+	}
+
+	.big-2 {
+		font-size: 42px;
+		letter-spacing: 0.025em;
+		line-height: 1.35em;
+	}
+
+	.big-3 {
+		font-size: 62px;
+		letter-spacing: 0;
+		line-height: 1.35em;
+	}
+
+	.big-4 {
+		font-size: 90px;
+		letter-spacing: 0;
+		line-height: 1.225em;
+	}
+
+	p {
+		margin-bottom: 0.5em;
+	}
+}
+
+
+/* Colours */
+
+body {
+	background-color: #323334;
+	color: white;
+	margin: 0 auto;
+	max-width: 995px;
+}
+
+a {
+	color: #ff2d33;
+}
+
+h2 {
+	color: #ff2d33;
+}
+
+/* Layout */
+
+body {
+	margin: 0 auto;
+	max-width: 995px;
+}
+
+section {
+	margin: 0 20px 90px;
+}
+
+footer {
+	margin: 0 20px 20px;
+}
+
+p {
+	padding-right: 30px;
+}
+
+@media (min-width: 420px) {
+	p {
+		max-width: 60%;
+		min-width: 360px;
+	}
+}
+
+@media (min-width: 768px) {
+	p {
+		padding-right: 260px;
+	}
+}
+
+@media (min-width: 1000px) {
+	p {
+		padding-right: 160px;
+	}
+
+	section {
+		margin-bottom: 200px;
+	}
+}
+
+/* Elements */
+
+.title {
+	font-size: 50px;
+	letter-spacing: 0.035em;
+	line-height: 45px;
+	margin-top: 20px;
+}
+
+.title-main {
+	display: block;
+}
+
+.title-turn-kern-first {
+	letter-spacing: -0.04em;
+}
+
+.title-subtitle {
+	display: inline-block;
+	font-size: 16px;
+	font-weight: normal;
+	letter-spacing: 0.08em;
+	line-height: 1.375em;
+	margin-top: 15px;
+}
+
+.logo-footer {
+	font-size: 22px;
+	margin-right: 10px;
+}
+
+@media (min-width: 420px) {
+	.title {
+		margin-bottom: 90px;
+	}
+
+	.title-main {
+		float: left;
+	}
+
+	.title-subtitle {
+		float: right;
+		margin-top: 0;
+	}
+}
+
+@media (min-width: 768px) {
+	.title {
+		margin-bottom: 120px;
+		margin-top: 40px;
+	}
+
+	.title-main {
+		font-size: 80px;
+		letter-spacing: 0;
+		line-height: 0.83em;
+	}
+
+	.title-subtitle {
+		font-size: 22px;
+		font-weight: bold;
+		letter-spacing: 0.03em;
+		line-height: 1.325em;
+	}
+}
+
+@media (min-width: 1000px) {
+	.title {
+		margin-bottom: 200px;
+		margin-top: 50px;
+	}
+
+	.title-main {
+		font-size: 152px;
+	}
+
+	.title-subtitle {
+		font-size: 34px;
+	}
+}
+
+/* Utils */
+
+.cf:before,
+.cf:after {
+	content: "";
+	display: table;
+}
+.cf:after {
+	clear: both;
+}
+.cf {
+	zoom: 1; /* For IE 6/7 (trigger hasLayout) */
+}
+
+.no-wrap {
+	white-space: nowrap;
+}
