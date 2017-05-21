@@ -100,13 +100,27 @@
 		</p>
 	</section>
 
-	<!--<section>
+	<section>
 		<h2>Richiedi info</h2>
 
 		<p>
 			Vuoi ricevere informazioni di questo corso? Lasciaci il tuo contatto!
 		</p>
-	</section>-->
+
+		<br />
+
+		<form action="https://formspree.io/contact@turnintocoders.it" method="POST">
+			<input type="text" name="name" placeholder="Nome e Cognome" />
+			<input type="email" name="_replyto" placeholder="Email" />
+			<label for="info">Tenetemi informato su:</label>
+			<select name="info" id="info">
+				<option>Tutto</option>
+				<option>Coding for everyone</option>
+				<option>Bootcamp</option>
+			</select>
+			<input type="submit" value="Invia" />
+		</form>
+	</section>
 
 	<footer>
 		<span class="logo-footer">Turn into Coders</span> © 2017
