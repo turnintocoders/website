@@ -15,7 +15,7 @@ footer {
 }
 
 b, strong {
-	color: #ff2d33;
+	color: #f06754;
 	font-weight: normal;
 }
 
@@ -88,18 +88,18 @@ p {
 /* Colours */
 
 body {
-	background-color: #323334;
+	background-color: #3e3d3d;
 	color: white;
 	margin: 0 auto;
 	max-width: 995px;
 }
 
 a {
-	color: #ff2d33;
+	color: #f06754;
 }
 
 h2 {
-	color: #ff2d33;
+	color: #f06754;
 }
 
 /* Forms */
@@ -120,9 +120,9 @@ input[type="email"] {
 
 select {
 	background: none;
-	color: #ff2d33;
+	color: #f06754;
 	border: 0;
-	border-bottom: 2px solid #ff2d33;
+	border-bottom: 2px solid #f06754;
 	font-size: 16px;
 	margin: 0px 5%;
 	-moz-appearance: none;
@@ -132,8 +132,8 @@ select {
 
 input[type="submit"] {
 	background: none;
-	color: #ff2d33;
-	border: 2px solid #ff2d33;
+	color: #f06754;
+	border: 2px solid #f06754;
 	font-size: 16px;
 	border-radius: 20px;
 	padding: 10px 40px;
