@@ -164,13 +164,11 @@ input[type="submit"] {
 
 /* Layout */
 
-html {
-	overflow-x: hidden;
-}
-
 body {
 	margin: 0 auto;
 	max-width: 995px;
+	overflow-x: hidden;
+	width: 100%;
 }
 
 section {
@@ -221,10 +219,13 @@ p {
 }
 
 .title-background {
-	height: 550px;
-	left: 30%;
+	background: url("assets/texture-home.svg");
+	background-size: 450px;
+	height: 450px;
 	position: absolute;
-	top: -50px;
+	right: -20px;
+	top: 20px;
+	width: 225px;
 	z-index: -1;
 }
 
@@ -246,10 +247,13 @@ p {
 }
 
 .section-background-left {
-	height: 550px;
-	left: -28%;
+	background: url("assets/texture-home-2.svg");
+	background-size: 151vw;
+	height: 134vw;
+	left: -90px;
 	position: absolute;
-	top: -170px;
+	top: -40vw;
+	width: calc(100vw + 70px);
 	z-index: -1;
 }
 
@@ -264,12 +268,31 @@ p {
 		line-height: 45px;
 		margin-bottom: 200px;
 	}
+
+	.title-background {
+		width: 350px;
+	}
+
+	.section-background-left {
+		background-size: 80vw;
+		height: 72vw;
+		left: -130px;
+		top: -24vw;
+		width: 80vw;
+	}
 }
 
 @media (min-width: 768px) {
 	.title {
 		margin-bottom: 180px;
 		margin-top: 40px;
+	}
+
+	.title-background {
+		background-size: 550px;
+		height: 550px;
+		top: -30px;
+		width: 550px;
 	}
 
 	.title-main {
@@ -284,6 +307,10 @@ p {
 		letter-spacing: 0.03em;
 		line-height: 1.325em;
 	}
+
+	.section-background-left {
+		top: -26vw;
+	}
 }
 
 @media (min-width: 1000px) {
@@ -293,10 +320,11 @@ p {
 	}
 
 	.title-background {
+		background-size: 800px;
 		height: 800px;
-		left: 115px;
-		position: absolute;
-		top: -43px;
+		left: 120px;
+		top: -52px;
+		width: 800px;
 	}
 
 	.title-main {
@@ -310,10 +338,7 @@ p {
 	}
 
 	.section-background-left {
-		height: 800px;
-		left: -445px;
-		position: absolute;
-		top: -150px;
+		top: -20vw;
 	}
 }
 
