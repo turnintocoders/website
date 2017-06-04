@@ -1,7 +1,19 @@
 /* Typography */
 
+@font-face {
+	font-family: "HelveticaNeue";
+	font-weight: bold;
+	src: url("assets/HelveticaNeue-Bold.otf");
+}
+
+@font-face {
+	font-family: "HelveticaNeue";
+	font-weight: normal;
+	src: url("assets/HelveticaNeue-Roman.otf");
+}
+
 body {
-	font-family: Helvetica;
+	font-family: HelveticaNeue;
 	letter-spacing: 0.04em;
 	line-height: 1.45em;
 }
