@@ -181,25 +181,25 @@ footer {
 	margin: 0 20px 20px;
 }
 
-p {
+p, .text-block {
 	padding-right: 30px;
 }
 
 @media (min-width: 420px) {
-	p {
+	p, .text-block {
 		max-width: 60%;
 		min-width: 300px;
 	}
 }
 
 @media (min-width: 768px) {
-	p {
+	p, .text-block {
 		padding-right: 260px;
 	}
 }
 
 @media (min-width: 1000px) {
-	p {
+	p, .text-block {
 		padding-right: 160px;
 	}
 
