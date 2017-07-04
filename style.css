@@ -456,6 +456,9 @@ p {
 	.faq-list {
 		padding-right: 260px;
 	}
+	.faq-separator {
+		margin-bottom: 180px;
+	}
 }
 
 @media (min-width: 1000px) {
