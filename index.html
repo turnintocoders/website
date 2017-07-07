@@ -173,17 +173,9 @@
 			Vuoi avere informazioni su Turn into Coders? Lasciaci il tuo contatto, oppure <a href="mailto:info@turnintocoders.it">scrivici</a>!
 		</p>
 
-		<br />
-
-		<form action="https://formspree.io/contact@turnintocoders.it" method="POST">
-			<input type="text" name="name" placeholder="Nome e Cognome" />
-			<input type="email" name="_replyto" placeholder="Email" />
-			<label for="info">Tenetemi informato su:</label>
-			<select name="info" id="info">
-				<option>Tutto</option>
-				<option>Coding for everyone</option>
-				<option>Bootcamp</option>
-			</select>
+		<form action="https://tinyletter.com/turnintocoders" method="post" target="popupwindow" onsubmit="window.open('https://tinyletter.com/turnintocoders', 'popupwindow', 'scrollbars=yes,width=800,height=600');return true">
+			<input type="email" name="email" id="tlemail" placeholder="Email" />
+			<input type="hidden" value="1" name="embed"/>
 			<input type="submit" value="Invia" />
 		</form>
 	</section>
