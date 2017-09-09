@@ -441,7 +441,7 @@ p, .text-block {
 	margin-bottom: 10px;
 }
 
-.faq-separator {
+.section-separator {
 	margin-bottom: 100px;
 }
 
@@ -456,7 +456,7 @@ p, .text-block {
 	.faq-list {
 		padding-right: 260px;
 	}
-	.faq-separator {
+	.section-separator {
 		margin-bottom: 180px;
 	}
 }
