@@ -32,7 +32,7 @@ function getMeetupData() {
 	}
 	var script = document.createElement('script');
 	script.src = 'http://api.meetup.com/turn-into-coders/events' + '?callback=updateMeetupDetails';
-	document.getElementsByTagName('head')[0].appendChild(script);
+	document.getElementsByTagName('body')[0].appendChild(script);
 }
 getMeetupData();
 
