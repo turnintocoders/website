@@ -444,6 +444,9 @@ p, .text-block {
 .section-separator {
 	margin-bottom: 100px;
 }
+section + .section-separator {
+	margin-top: -70px;
+}
 
 @media (min-width: 420px) {
 	.faq-list {
