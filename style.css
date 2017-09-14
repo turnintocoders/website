@@ -187,7 +187,7 @@ p, .text-block {
 
 @media (min-width: 420px) {
 	p, .text-block {
-		max-width: 60%;
+		max-width: 80%;
 		min-width: 300px;
 	}
 }
