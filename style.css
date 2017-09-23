@@ -24,6 +24,7 @@ h2 {
 
 footer {
 	font-size: 13px;
+	line-height: 1.75;
 }
 
 b, strong {
@@ -222,6 +223,7 @@ p, .text-block {
 
 .menu-fixed {
 	background-color: #333333;
+	max-width: 955px;
 	padding: 20px;
 	position: fixed;
 	z-index: 1;
@@ -256,6 +258,16 @@ p, .text-block {
 	text-decoration: underline;
 }
 
+.menu-item-i18n {
+	margin-top: 50px;
+}
+
+.menu-i18n {
+	display: none;
+	float: right;
+	font-size: 16px;
+}
+
 @media (min-width: 420px) {
 	.menu-fixed-logo {
 		max-width: 50%;
@@ -264,15 +276,21 @@ p, .text-block {
 }
 
 @media (min-width: 768px) {
+	.menu-fixed {
+		width: 100%;
+	}
+
 	.menu-fixed-logo {
 		max-width: 40%;
 	}
 
-	.menu-nav {
+	.menu-nav,
+	.menu-i18n {
 		display: block;
 	}
 
-	.menu-hamburger {
+	.menu-hamburger,
+	.menu-item-i18n {
 		display: none;
 	}
 
