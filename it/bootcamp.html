@@ -3,7 +3,7 @@
 	<title>Turn into Coders - Bootcamp</title>
 	<meta charset="utf-8" />
 	<meta name="viewport" content="width=device-width, initial-scale=1" />
-	<link rel="stylesheet" type="text/css" href="style.css" />
+	<link rel="stylesheet" type="text/css" href="/style.css" />
 	<link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
 	<link rel="icon" href="favicon.ico" type="image/x-icon">
 	<!-- Piwik -->
@@ -31,7 +31,8 @@
 
 <body>
 	<div class="menu-fixed">
-		<img class="menu-fixed-logo" src="assets/logo-line.svg" alt="Turn into Coders" />
+		<img class="menu-fixed-logo" src="/assets/logo-line.svg" alt="Turn into Coders" />
+		<div class="menu-i18n"><a href="/en/bootcamp.html">in English</a></div>
 		<span class="menu-hamburger">=</span>
 		<nav class="menu-nav">
 			<ul>
@@ -40,6 +41,7 @@
 				<li class="menu-item"><a href="mini-bootcamp.html">Mini-bootcamp</a></li>
 				<li class="menu-item"><a href="aziende.html">Aziende</a></li>
 				<li class="menu-item"><a href="faq.html">FAQ</a></li>
+				<div class="menu-item menu-item-i18n"><a href="/en/bootcamp.html">in English</a></div>
 			</ul>
 		</nav>
 	</div>
@@ -172,7 +174,7 @@
 
 		<p>Se vuoi iscriverti al bollettino, lasciaci la tua mail:</p>
 
-		<form action="https://tinyletter.com/turnintocoders" method="post" target="popupwindow" onsubmit="window.open('https://tinyletter.com/turnintocoders', 'popupwindow', 'scrollbars=yes,width=800,height=600');return true">
+		<form action="https://tinyletter.com/turnintocoders" method="post" target="popupwindow" onsubmit="window.open('https://tinyletter.com/turnintocoders', 'popupwindow', 'scrollbars=yes,width=800,height=600');return true" class="cf">
 			<input type="email" name="email" id="tlemail" placeholder="Email" />
 			<input type="hidden" value="1" name="embed"/>
 			<input type="submit" value="Invia" />
@@ -187,9 +189,10 @@
 	</section>
 
 	<footer>
-		<span class="logo-footer">Turn into Coders</span> © 2017<br />
-		Il progetto nasce dall'idea di <a href="https://foundersandcoders.com/">Founders & Coders</a>
+		<p>Il progetto nasce dall'idea di <a href="https://foundersandcoders.com/">Founders & Coders</a></p>
+		<p>Turn into Coders SRL - Società tra professionisti. © 2017<br>
+		P. IVA 11703720018. REA TO - 1234061. Cap. Soc.: €10000 i.v.</p>
 	</footer>
 </body>
-<script type="text/javascript" src="app.js"></script>
+<script type="text/javascript" src="/app.js"></script>
 </html>
