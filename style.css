@@ -223,6 +223,7 @@ p, .text-block {
 
 .menu-fixed {
 	background-color: #333333;
+	box-sizing: border-box;
 	max-width: 955px;
 	padding: 20px;
 	position: fixed;
