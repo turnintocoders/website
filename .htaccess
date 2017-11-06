@@ -1,5 +1,8 @@
 Options +FollowSymLinks
 RewriteEngine On
+RedirectMatch ^.com/$ /en/
+RewriteCond %{HTTP_HOST} ^turnintocoders.com
+RewriteRule ^(.*)$ http://www.turnintocoders.it/en/$1 [R=permanent,L]
 RedirectMatch ^/$ /it/
 RedirectMatch ^/index.html$ /it/index.html
 RedirectMatch ^/bootcamp.html$ /it/bootcamp.html
