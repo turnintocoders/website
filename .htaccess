@@ -10,3 +10,4 @@ RedirectMatch ^/mini-bootcamp.html$ /it/mini-bootcamp.html
 RedirectMatch ^/minibootcamp.html$ /it/mini-bootcamp.html
 RedirectMatch ^/aziende.html$ /it/aziende.html
 RedirectMatch ^/faq.html$ /it/faq.html
+RedirectMatch ^/contatti.html$ /it/contatti.html
