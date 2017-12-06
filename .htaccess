@@ -6,8 +6,12 @@ RewriteRule ^(.*)$ http://www.turnintocoders.it/en/$1 [R=permanent,L]
 RedirectMatch ^/$ /it/
 RedirectMatch ^/index.html$ /it/index.html
 RedirectMatch ^/bootcamp.html$ /it/bootcamp.html
-RedirectMatch ^/mini-bootcamp.html$ /it/mini-bootcamp.html
-RedirectMatch ^/minibootcamp.html$ /it/mini-bootcamp.html
+RedirectMatch ^/mini-bootcamp.html$ /it/bootcamp.html
+RedirectMatch ^/minibootcamp.html$ /it/bootcamp.html
+RedirectMatch ^it/minibootcamp.html$ /it/bootcamp.html
+RedirectMatch ^it/mini-bootcamp.html$ /it/bootcamp.html
 RedirectMatch ^/aziende.html$ /it/aziende.html
 RedirectMatch ^/faq.html$ /it/faq.html
 RedirectMatch ^/contatti.html$ /it/contatti.html
+RedirectMatch ^en/minibootcamp.html$ /en/bootcamp.html
+RedirectMatch ^en/mini-bootcamp.html$ /en/bootcamp.html
